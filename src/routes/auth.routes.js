@@ -6,6 +6,8 @@ import { userRegistrationValidator } from "../validators/index.js";
 const router = Router();
 
 //Array returned from calling userRegistrationValidator() will be directly passed to validate
-router.route("/register").post(userRegistrationValidator(), validate, registerUser);
+router
+  .route("/register")
+  .post(userRegistrationValidator(), validate, registerUser);
 
 export default router;
