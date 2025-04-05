@@ -2,10 +2,7 @@ import app from "./app.js";
 import dotenv from "dotenv";
 import connectDB from "./db/db.connect.js";
 
-dotenv.config({
-  //Path for the .env file for better readability of code
-  path: "../.env",
-});
+dotenv.config();
 
 const PORT = process.env.PORT || 8000;
 
