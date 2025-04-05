@@ -17,3 +17,4 @@ A full-stack task management application to create, manage and track tasks effic
 - Database: MongoDB with Mongoose
 - Authentication: JWT, bcrypt, crypto
 - Validation: Express-validator
+- Mailing: Nodemailer, Mailgen, MailTrap
