@@ -16,3 +16,4 @@ A full-stack task management application to create, manage and track tasks effic
 - Backend: Node.js, Express.js
 - Database: MongoDB with Mongoose
 - Authentication: JWT, bcrypt, crypto
+- Validation: Express-validator
